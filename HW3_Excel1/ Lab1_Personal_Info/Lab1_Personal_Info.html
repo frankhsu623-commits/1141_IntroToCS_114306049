@@ -54,16 +54,15 @@
 </head>
 <body>
 
-  <h1>My Personal Introduction</h1>
 
   <form>
     <table>
-      <!-- Table 1 Header -->
+      <!-- 標題 -->
       <tr>
-        <th colspan="3">Personal Information Table</th>
+        <th colspan="2">About 114306049</th>
       </tr>
 
-      <!-- Row 1 -->
+      <!-- 照片 + Name/Gender -->
       <tr>
         <td rowspan="3" class="photo-cell">
           <img src="your-photo.jpg" alt="Personal Photo"><br>
@@ -76,10 +75,9 @@
           <label><input type="radio" name="gender" value="Female"> Female</label>
           <label><input type="radio" name="gender" value="Other"> Other</label>
         </td>
-        <td></td>
       </tr>
 
-      <!-- Row 2 -->
+      <!-- County + Birthday -->
       <tr>
         <td>
           County:
@@ -88,31 +86,21 @@
             <option value="Tainan">Tainan</option>
             <option value="Taichung">Taichung</option>
             <option value="Taoyuan">Taoyuan</option>
-          </select>
-        </td>
-        <td>
+          </select><br><br>
           Birthday: <input type="date" name="birthday">
         </td>
       </tr>
 
-      <!-- Row 3 -->
+      <!-- Email -->
       <tr>
-        <td colspan="2">
+        <td>
           E-mail: <input type="email" name="email" placeholder="example@email.com">
         </td>
       </tr>
-    </table>
 
-    <br><br>
-
-    <!-- Table 2 -->
-    <table>
+      <!-- Hobby -->
       <tr>
-        <th colspan="2">More About Me</th>
-      </tr>
-
-      <tr>
-        <td>Hobby</td>
+        <td><strong>Hobby:</strong></td>
         <td>
           <label><input type="checkbox" name="hobby" value="Swimming"> Swimming</label>
           <label><input type="checkbox" name="hobby" value="Volleyball"> Volleyball</label>
@@ -122,8 +110,9 @@
         </td>
       </tr>
 
+      <!-- Skill -->
       <tr>
-        <td>Skill</td>
+        <td><strong>Skill:</strong></td>
         <td>
           <label><input type="checkbox" name="skill" value="Java"> Java</label>
           <label><input type="checkbox" name="skill" value="HTML"> HTML</label>
@@ -133,8 +122,9 @@
         </td>
       </tr>
 
+      <!-- Say something -->
       <tr>
-        <td>Say something</td>
+        <td><strong>Say something:</strong></td>
         <td>
           <textarea name="message" placeholder="Say something here."></textarea>
         </td>
